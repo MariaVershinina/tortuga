@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TortugaPark | <%= yield(:title) %></title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+
+<%= javascript_include_tag "bootstrap", "data-turbolinks-track" => true %>
+
+<%= javascript_include_tag "bootstrap.min", "data-turbolinks-track" => true %>
+
+
+<link rel="stylesheet" href="/assets/bootstrap.min.css">
+<link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+<link rel="stylesheet" href="/assets/bootstrap-image-gallery.min.css">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+
+
+
+
+
+   <header class="site-title center">
+                                                                                                                                        
+    </header>
+
+
+
+</head>
+<body class="wrapper">
+<div class="main">
+
+ 	<div class="left">
+
+		<div class="rast"> <%= link_to "Главная", root_path, class: "btn btn-large btn-info btn-block" %></div>
+   		<div class="rast"> <%= link_to "Спонсоры", friends_path, class: "btn btn-large btn-success btn-block " %></div>
+        <div class="rast"> <%= link_to "Альбом", photo_path, class: "btn btn-large btn-danger btn-block" %></div>
+        <div class="rast"> <%= link_to "Конкурсы", konkursy_path, class: "btn btn-large btn-primary btn-block" %></div>
+		<div class="rast"> <%= link_to "Контакты", contacts_path, class: "btn btn-large btn-warning btn-block" %></div>
+	</div>
+  <div class="content">
+    	<%= yield %>
+    </div>
+ <div class="hFooter"></div>
+
+</div>
+
+
+<div class="footer">
+
+
+</div>
+
+</body>
+
+
+</html>

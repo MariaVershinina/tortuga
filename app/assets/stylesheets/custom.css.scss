@@ -1,0 +1,153 @@
+@import "bootstrap";
+
+/* universal */
+
+html {
+  overflow-y: scroll;
+  height: 100%;
+  
+}
+
+body {
+  padding-top: 10px;
+  height: 100%;
+}
+
+* html .main { 
+height: 100%;
+}
+
+  
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+
+}
+
+
+.content {
+float: right;
+width: 1032px;
+margin-top: 30px;
+margin-right: 100px;
+margin-bottom: 70px;
+margin-left: 0px;
+
+
+}
+
+.left{
+float: left;
+   padding-top: 115px;
+    width:144px; 
+    height:24px;
+}
+.center h1 {
+  margin-bottom: 10px;
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #999;
+}
+
+p {
+  font-size: 1 em;
+  line-height: 1.7em;
+}
+
+.rast{
+ margin: 10px;
+}
+
+/*header*/
+
+.site-title {
+
+
+  text-align: center;
+  background-color: #ffffff;
+  font-family: Lato, sans-serif;
+  font-size: 40px;
+  *font-size: 8rem;
+  font-weight: 300;
+  letter-spacing: 5px;
+  line-height: 1;
+  margin: 0;
+  padding: 300px 0 5px;
+  *padding: 4rem 0 0.5rem;
+  text-transform: uppercase;
+  background: url(/assets/header.jpg) no-repeat center bottom;
+    padding-bottom: 10px;
+}
+
+.footer { 
+background: url(https://lh3.googleusercontent.com/oJKkYVYn22Jxme-nloKaQTZZTzommont7_Qay_yiLxzoD-91Ce0gq-9djnN2H7LWvSowUw=s170) no-repeat center bottom;
+color: #fff;
+
+height: 144px; 
+margin-top: -40px; 
+
+}
+
+.wrapper{
+width: 1286px;
+margin: 0px auto 0 auto;
+  
+
+}
+
+.hFooter { 
+height: 100 px; 
+clear: both;
+
+}
+
+
+
+
+
+
+
+.color{
+  
+  font-family:Petersburg;
+}
+.size{font-size: 2em;
+color:#600033;
+ line-height: 1.5;
+ text-align: justify;}
+
+
+ .sponsors {
+    *background: #d9dabb; /* Цвет фона */
+    width: 200px; /* Ширина */
+    margin: 0 10px 10px 0; /* Отступы */
+    padding: 10px 0; /* Поля сверху и снизу */
+    text-align: center; /* Выравнивание по центру */
+    display: inline-block; /* Строчно-блочный элемент */
+    vertical-align:middle;}
